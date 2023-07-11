@@ -1,6 +1,7 @@
 {
 	"name": "proton-notes",
 	"version": "0.0.1",
+	"description": "A proof-of-concept for a note-keeping app developed in the style of Proton apps.",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -11,6 +12,23 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"keywords": [
+		"app",
+		"keep",
+		"note-taking",
+		"notes",
+		"proton"
+	],
+	"author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/travishorn/proton-notes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/travishorn/proton-notes/issues"
+	},
+	"homepage": "https://github.com/travishorn/proton-notes#readme",
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
