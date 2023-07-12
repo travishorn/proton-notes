@@ -1,5 +1,6 @@
 <script>
 	import SiteHeader from '$lib/SiteHeader.svelte';
+	import Sidebar from '$lib/Sidebar.svelte';
 </script>
 
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <SiteHeader />
+<Sidebar />

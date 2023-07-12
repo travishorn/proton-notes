@@ -7,10 +7,11 @@ export default {
 		extend: {
 			colors: {
 				'proton-gray-900': '#16141C',
-				'proton-white': '#FFFFFF',
 				'proton-gray-800': '#34384E',
 				'proton-gray-700': '#979BB0',
-				'proton-accent': '#E53265'
+				'proton-white': '#FFFFFF',
+				'proton-red-600': '#E53265',
+				'proton-red-500': '#E84774'
 			},
 			fontFamily: {
 				sans: ['Inter Variable', ...defaultTheme.fontFamily.sans]
