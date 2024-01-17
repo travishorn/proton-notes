@@ -1,6 +1,7 @@
 # Proton Notes
 
-A proof-of-concept for a note-keeping app developed in the style of Proton apps.
+A proof-of-concept for a note-keeping app developed in the style of Proton apps. Work is progress.
+There is no actual note reading/writing available, yet.
 
 ## Installing
 
