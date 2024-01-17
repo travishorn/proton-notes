@@ -1,6 +1,7 @@
 <script>
 	import SiteHeader from '$lib/SiteHeader.svelte';
 	import Sidebar from '$lib/Sidebar.svelte';
+	import NoteListing from '$lib/NoteListing.svelte';
 </script>
 
 <svelte:head>
@@ -8,4 +9,7 @@
 </svelte:head>
 
 <SiteHeader />
-<Sidebar />
+<div class="flex">
+	<Sidebar />
+	<NoteListing />
+</div>
